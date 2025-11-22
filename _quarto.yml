@@ -3,22 +3,18 @@ project:
   output-dir: docs
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  description: "TODO: A blog built with Quarto"
+  site-url: https://daniilgaltsev.github.io # you must change this appropriately for RSS feeds to work properly
   title: "Dan's Blog"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/daniilgaltsev
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: lumen
+      dark: darkly
     css: styles.css
-
-
 
